@@ -67,3 +67,52 @@ nav ul li {
   color: #0065fc;
   margin: 50px 0 0 33px;
 }
+/* Main */
+main {
+  margin-top: 40px;
+  width: 100%;
+}
+/* Search */
+.search h2,
+p {
+  margin: 0 0 10px 0;
+}
+.containerIcn {
+  background-color: #f2f2f2;
+  border-radius: 15px 0 0 15px;
+  width: 50px;
+}
+.containerIcn i {
+  margin: auto;
+  font-size: 1.2rem;
+}
+.searchForm {
+  height: 50px;
+  margin: 20px 0 40px 5px;
+}
+.searchField {
+  border: 1px solid #f2f2f2;
+  padding: 0 0 0 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 230px;
+}
+.searchField::placeholder {
+  color: black;
+}
+
+.searchButton {
+  width: 130px;
+  background-color: #0065fc;
+  border: none;
+  padding: 0;
+  border-radius: 0 15px 15px 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.searchButton i {
+  display: none;
+}

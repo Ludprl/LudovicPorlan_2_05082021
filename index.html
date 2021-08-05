@@ -12,19 +12,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css\main.css" />
     <link
-    href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
-    media="all"
-    rel="stylesheet"
-     />
-     <link
-    href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
-    media="all"
-    rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+      media="all"
+      rel="stylesheet"
     />
     <link
-    href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
-    media="all"
-    rel="stylesheet"
+      href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link
+      href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+      media="all"
+      rel="stylesheet"
     />
   </head>
   <body>
@@ -36,23 +36,38 @@
     <![endif]-->
     <script src="" async defer></script>
     <div id="page" class="flex">
+      <!-- Header -->
       <header>
         <div class="logo"><img src="images\logo\Reservia.svg" alt="" /></div>
         <div class="menu flex">
           <nav class="flex">
-              <ul>
-                <li class="currentSection"><a href="#accomAnchor">Hébergement</a></li>
-                <li><a href="#activitisAnchor">Activités</a></li>
-              </ul>
+            <ul>
+              <li class="currentSection">
+                <a href="#accomAnchor">Hébergement</a>
+              </li>
+              <li><a href="#activitiesAnchor">Activités</a></li>
+            </ul>
           </nav>
-          <a class="register" href="#registring">S'inscrire</a></div>
+          <a class="register" href="#registring">S'inscrire</a>
         </div>
       </header>
-      <main>        
+      <main>
+        <!-- Search-->
+        <div class="search">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form class="searchForm flex" action="#" method="GET">
+                <div class="containerIcn flex">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" class="searchField" placeholder="Marseille, France">
+                <button class="searchButton">
+                    <span>Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
       </main>
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
   </body>
 </html>
