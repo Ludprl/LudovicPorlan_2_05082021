@@ -215,9 +215,15 @@ p {
   justify-content: space-around;
   align-content: stretch;
   width: 100%;
+  max-width: 800px;
 }
 .sectionTitle {
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionTitle i {
+  font-size: 1.5em;
 }
 .articlesWrap {
   width: 100%;
@@ -278,6 +284,8 @@ p {
   color: #d9d9d9;
 }
 .showMore {
+  display: ;
+  width: auto;
   flex: 1 1 auto;
 }
 .showMore h4 {
@@ -285,3 +293,43 @@ p {
   margin-bottom: 15px;
 }
 /* Most Popular - Accomodations */
+.accomPopContainer {
+  padding: 25px 40px 25px 40px;
+  align-content: flex-start;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 340px;
+}
+.articlesPopWrap {
+  width: calc(100% - 10px);
+  align-content: center;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.accomPopItems {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 100%;
+  padding: 5px;
+  background-color: white;
+  max-height: 144px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 15px lightgray;
+}
+.accomPopItems img {
+  width: 100%;
+  max-width: 127px;
+  border-radius: 20px 0 0 20px;
+  height: 134px;
+  object-fit: cover;
+}
