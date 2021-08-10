@@ -50,7 +50,6 @@ header {
 }
 /* Menu */
 .current-section {
-    color: #0065fc;
     font-weight: 600;
     border-top: solid 2px #0065fc;
     padding: 46px 20px 20px 20px;
@@ -280,11 +279,11 @@ p {
 .GStar {
     color: #d9d9d9;
 }
-.showMore {
+.show-more {
     width: auto;
     flex: 1 1 auto;
 }
-.showMore h4 {
+.show-more h4 {
     margin-top: 0;
     margin-bottom: 15px;
 }
