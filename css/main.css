@@ -226,7 +226,6 @@ p {
 .articles-wrap {
     width: 100%;
     align-content: flex-start;
-    background-color: #f2f2f2;
     border-radius: 20px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -290,7 +289,7 @@ p {
     margin-bottom: 15px;
 }
 /* Most Popular - Accomodations */
-.accomPopContainer {
+.accom-pop-container {
     padding: 25px 40px 25px 40px;
     align-content: flex-start;
     background-color: #f2f2f2;
@@ -452,8 +451,8 @@ footer {
         padding: 25px 40px 25px 40px;
         max-width: 100%;
     }
-    .accomPopContainer {
-        background-color: #fff;
+    .accom-pop-container {
+        background-color: white;
         max-width: 100%;
     }
     .articles-pop-wrap {
@@ -572,6 +571,7 @@ footer {
         border-radius: 0px;
         padding: 25px 0px 25px 0px;
         max-width: 100%;
+        background-color: #fff;
     }
     .articles-pop-wrap {
         flex-direction: column;
@@ -592,7 +592,9 @@ footer {
         border-radius: 20px;
         box-shadow: 4px 4px 15px lightgray;
     }
-    .accomPopContainer {
+    .accom-pop-container {
+        background-color: #f2f2f2;
+        border-radius: 0;
         padding: 25px 0px 25px 0px;
     }
     /* Popular - Mobile */
@@ -601,6 +603,10 @@ footer {
         align-self: center;
     }
     /* Activities - Mobile */
+    .marseille-out {
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
     .activiti-warp {
         display: flex;
         flex-direction: column;
