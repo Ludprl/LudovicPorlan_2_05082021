@@ -55,7 +55,7 @@ header {
     border-top: solid 2px #0065fc;
     padding: 46px 20px 20px 20px;
 }
-.ccurrent-section-link {
+.current-section-link {
     color: #0065fc;
 }
 nav a {
@@ -106,13 +106,14 @@ p {
     font-family: "Raleway", sans-serif;
     padding: 0 0 0 15px;
     font-size: 1.1rem;
-    font-weight: 600;
     width: 230px;
 }
 .search-field::placeholder {
     color: black;
     font-weight: 700;
+    opacity: 1;
 }
+
 .search-button {
     width: 130px;
     background-color: #0065fc;
@@ -130,7 +131,7 @@ p {
 /* Filters */
 
 .filters-title {
-    margin: 0;
+    margin: 0 32px 0 0;
 }
 .filters-result {
     align-items: center;
@@ -148,7 +149,7 @@ p {
     display: flex;
     align-items: center;
     height: 46px;
-    border: 2px solid #f2f2f2;
+    border: 2px solid #d9d9d9;
     border-left: none;
     margin: 6px 13px 6px 0;
     padding-right: 13px;
@@ -300,8 +301,8 @@ p {
     width: 100%;
     max-width: 340px;
 }
-.articlesPopWrap {
-    width: calc(100% - 10px);
+.articles-pop-wrap {
+    width: 100%;
     align-content: center;
     border-radius: 20px;
     flex-direction: column;
@@ -346,7 +347,6 @@ p {
 }
 .activiti-col {
     display: flex;
-    max-height: 445px;
     flex-direction: column;
 }
 .activiti-item {
@@ -398,6 +398,10 @@ p {
 }
 .activiti-title {
     padding-left: 20px;
+    height: 55px;
+    align-items: center;
+    justify-content: unset;
+    display: flex;
 }
 /* Footer */
 footer {
@@ -452,7 +456,7 @@ footer {
         background-color: #fff;
         max-width: 100%;
     }
-    .articlesPopWrap {
+    .articles-pop-wrap {
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
@@ -461,9 +465,9 @@ footer {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
-        width: calc(33% - 2rem);
+        width: calc(50% - 2rem);
         min-width: 200px;
-        max-width: calc(33% - 2rem);
+        max-width: calc(50% - 2rem);
         padding: 5px;
         background-color: white;
         border-radius: 20px;
@@ -471,6 +475,13 @@ footer {
     }
     /* Hotels - Tablet */
     /* Activities - Tablet */
+    .activiti-col {
+        width: calc(50% - 1em);
+    }
+    .activiti-item {
+        width: auto;
+        max-width: 100%;
+    }
 }
 
 /* smarphones */
@@ -562,7 +573,7 @@ footer {
         padding: 25px 0px 25px 0px;
         max-width: 100%;
     }
-    .articlesPopWrap {
+    .articles-pop-wrap {
         flex-direction: column;
         justify-content: center;
     }
@@ -618,7 +629,6 @@ footer {
     }
     .activiti-col {
         display: flex;
-        max-height: 445px;
         flex-direction: column;
         align-items: center;
         width: 100%;
