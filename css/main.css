@@ -357,8 +357,15 @@ p {
     flex-direction: column;
     margin: 20px 0;
 }
+.activiti-item a {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 .activiti-item img {
     border-radius: 20px 20px 0 0;
+    width: max-content;
     max-width: 100%;
     object-fit: cover;
     flex-grow: 1;
