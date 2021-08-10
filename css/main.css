@@ -257,8 +257,10 @@ p {
     justify-content: space-between;
 }
 .accom-name {
-    font-weight: 700;
     margin: 10px 0 5px 0px;
+}
+.accom-name h4 {
+    margin: 0 0 10px 0;
 }
 .accom-price {
     margin-bottom: 10px;
